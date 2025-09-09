@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding DOM</title>
+</head>
+<body>
+    <h1 align="center">Using DOM API</h1>
+
+    <p id="paragraph">Lorem ipsum dolor sit amet.</p>
+    <script>
+document.getElementById("paragraph").textContent="This is the new Paragraph!!";
+var h2 = document.createElement('h2');
+h2.textContent = "This is added by javaScript";
+
+document.body.appendChild(h2);
+
+
+    </script>
+</body>
+</html>
