@@ -31,6 +31,8 @@
 
 
 // we can give some defauly value to a parameter which is considered if function is called without any argument.
-function greet(name = "Dear"){
-    console.log(`${name}!, Welcome to this application `)
-}
+// function greet(name = "Dear"){
+//     console.log(`${name}!, Welcome to this application `)
+// }
+// greet();
+
