@@ -39,3 +39,30 @@
 // if there is a case in which we cant decide how many arguments we need to take or it changes every time than we use rest operator
 // rest operator is just like spread we need to use ... before a parameter name.
 // this gives us all the arguments in a array and than we can use that array to looop and use those values.
+
+
+//      *** Using and Passing Objects in a Function ***     //
+
+// const user = {
+//     username : "hitesh",
+//     price : 199
+// }
+
+// function handleObject(obj){
+//     console.log(`username is ${obj.username} and price is ${obj.price}`);
+    
+// }
+
+// handleObject(user);
+
+//  passing arrays in function
+
+// const arr = [200,400,100,600];
+
+// function rtnSecondVal(anyArr){
+//     console.log(anyArr[1]);
+    
+//     return anyArr[1];
+// }
+
+// rtnSecondVal(arr);
