@@ -36,3 +36,6 @@
 // }
 // greet();
 
+// if there is a case in which we cant decide how many arguments we need to take or it changes every time than we use rest operator
+// rest operator is just like spread we need to use ... before a parameter name.
+// this gives us all the arguments in a array and than we can use that array to looop and use those values.
